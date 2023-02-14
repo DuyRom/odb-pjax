@@ -3,6 +3,7 @@
 namespace odinbi\pjax;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Blade;
 
 class OdbPackageServiceProvider extends ServiceProvider
 {
