@@ -25,7 +25,7 @@ class OdbPackageServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Blade::directive('odb-pjax', function ($expression) {
+        Blade::directive('odb-pjax', function () {
             return `<script defer="" src="/pjax/assets/jquery-pjax.js"></script>
                     <script defer="" src="/pjax/assets/fn-pjax.js"></script>
             `;
